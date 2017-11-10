@@ -8,15 +8,18 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 
 ### Probability & Statistics
 
-* [Statistical Inference]() - Book
-* [Computer Age Statistical Inference (CASI)](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) ([Permalink as of October 2017](https://perma.cc/J8JG-ZVFW)) - Book
-* [Bayesian Data Analysis]() - Book
+* [Statistical Inference, 2nd](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126) - Book
+* [Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) - Book
+* [Bayesian Data Analysis, 3rd](https://www.amazon.com/Bayesian-Analysis-Chapman-Statistical-Science/dp/1439840954) - Book
 
 ### Linear Models
 
-* [Linear Model with R]() - Book
-* [Regression Shrinkage and Selection via the Lasso]() - Paper
-* [Least Angle Regression]() - Book
+* [Linear Model with R](http://www.utstat.toronto.edu/~brunner/books/LinearModelsWithR.pdf) - Book
+* [Linear Statistical Models, 2nd](https://www.amazon.com/Linear-Statistical-Models-James-Stapleton/dp/0470231467) - Book
+* [Regression Shrinkage and Selection via the Lasso](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) - Paper
+* [Regularization and Variable Selection via the Elastic Net](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) - Paper
+* [Model Selection and Estimation in Regression with Grouped Variables](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.366.4278&rep=rep1&type=pdf) - Paper
+* [Exact Post-Selection Inference, with Application to the Lasso](https://arxiv.org/abs/1311.6238.pdf) - Paper
 
 ### Tree-Based Models
 
@@ -25,10 +28,17 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 * [Fighting Biases with Dynamic Boosting](https://arxiv.org/pdf/1706.09516.pdf) - Paper
 * [Deep Forest: Towards An Alternative to Deep Neural Networks]() - Paper
 
+### Graphical Models
+
+* []() - Paper
+
 ### Ensemble Learning
 
 * [Super Learner](http://biostats.bepress.com/cgi/viewcontent.cgi?article=1226&context=ucbbiostat) - Paper
 * []
+
+### Clustering
+* [Survey of Clustering Algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.2219&rep=rep1&type=pdf) - Paper
 
 ### Reinforcement Leanring
 
