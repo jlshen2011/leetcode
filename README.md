@@ -2,7 +2,7 @@
 Below is my reading list on a variety of topics of modern machine learning. Different from many reading list you may find available online, I have went through all of the listed materials myself and so am sure that you'll more or less benefit from it.
 
 ### General-Purpose Books
-
+As a statistician, I favor machine leanring books from 
 * [Elements of Statistical Learning, 2nd](http://web.stanford.edu/~hastie/ElemStatLearn/) **(ESL, Bible book of machine learning in statistics community, My favorite book)** - Book
 * [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) **(A more gentle version of ESL)** - Book
 
@@ -17,6 +17,7 @@ Below is my reading list on a variety of topics of modern machine learning. Diff
 
 * [Linear Model with R](http://www.utstat.toronto.edu/~brunner/books/LinearModelsWithR.pdf) **(Introductory book on linear regression with plenty of R examples)** - Book
 * [Linear Statistical Models, 2nd](https://www.amazon.com/Linear-Statistical-Models-James-Stapleton/dp/0470231467) **(For those who want a formal mathematical treatment, Our textbook)** - Book
+
 Below some papers on regularized regression which are thought as the main breakthroughs in stats in the recent 20 years
 * [Regression Shrinkage and Selection via the Lasso](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) **()** - Article
 * [Regularization and Variable Selection via the Elastic Net](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) - Article
@@ -24,7 +25,7 @@ Below some papers on regularized regression which are thought as the main breakt
 * [Exact Post-Selection Inference, with Application to the Lasso](https://arxiv.org/abs/1311.6238.pdf) - Article
 
 ### Bagging & Boosting
-
+If I were asked to perform some prediction task in short time and without caring intepretation of the meaning of my model, boosting is my only choice. 
 * [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) - Article
 * [Welcome to LightGBM’s documentation!](https://lightgbm.readthedocs.io/en/latest/) - Website
 * [Fighting Biases with Dynamic Boosting](https://arxiv.org/pdf/1706.09516.pdf) - Article
@@ -37,8 +38,8 @@ The modern approach is to create an ensemble of a well-chosen collection of stro
 
 ### Clustering
 * [Survey of Clustering Algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.2219&rep=rep1&type=pdf) - Article
- 
-* [On Spectral Clustering: Analysis and an Algorithm](http://ai.stanford.edu/~ang/papers/nips01-spectral.pdf) - Article
+Besides the common clustering algorithms, the following two are pretty interesting 
+* [On Spectral Clustering: Analysis and an Algorithm](http://ai.stanford.edu/~ang/papers/nips01-spectral.pdf) **(Spectral clustering)** - Article
 * [Clustering by Passing Messages Between Data Points](http://www.psi.toronto.edu/affinitypropagation/FreyDueckScience07.pdf) **(Affinity propagation clustering)** - Article
 
 ### Reinforcement Leanring
@@ -70,6 +71,7 @@ I intentiionally don't recommend any advanced books, as the best way of learning
 * [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf) **(Official R documentation, best quick tutorial)** - Article
 
 ### Big Data
+
 #### Overview
 * [Challenges of Big Data Analysis](https://arxiv.org/pdf/1308.1479.pdf) **(Review article written by Jianqing Fan)** - Article
 #### Parallel Strategies
@@ -78,9 +80,9 @@ I intentiionally don't recommend any advanced books, as the best way of learning
 #### Hadoop & Spark
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) **(Original research paper of MapReduce by Jeff Dean)** - Article
 * [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf) **(Original research paper introducing the concept of Spark)** - Article
-* [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf) **(Original research paper introducing the concept of Spark RDD)** - Article
+* [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf) **(Original research paper introducing the concept of RDD)** - Article
 
-### General Topics
+### Miscellaneous Topics
 * [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
-* [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) - Article
+* [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) **(A great review of various information criterions)** - Article
 * [Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf) - Article
