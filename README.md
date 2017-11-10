@@ -5,6 +5,7 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 
 * [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - Book
 * [Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/) - Book
+* [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
 
 ### Probability & Statistics
 
@@ -56,6 +57,9 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 * [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) - Article
 * [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) - Article
 * [Searching for Activation Functions](https://arxiv.org/pdf/1710.05941.pdf) - Article
+* [ImageNet Classification with Deep Convolutional Neural Networks](https://www.nvidia.cn/content/tesla/pdf/machine-learning/imagenet-classification-with-deep-convolutional-nn.pdf) - Article
+* [Generative Adversarial Nets](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) - Article
+* [Long Short-Term Memory](https://dl.acm.org/citation.cfm?id=1246450) - Article
 * [Keras Documentation](https://keras.io/) - Website
 
 ### Natural Language Processing
@@ -66,6 +70,7 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 
 ### Big Data
 
+* [Challenges of Big Data analysis](https://arxiv.org/pdf/1308.1479.pdf) - Article
 * [A Split-and-Conquer Approach for Analysis of Extraordinarily Large Data](http://www3.stat.sinica.edu.tw/sstest/oldpdf/A24n49.pdf) - Paper
 * [A Communication-Efficient Parallel Algorithm for Decision Tree](https://arxiv.org/pdf/1611.01276.pdf) - Article
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) - Article
