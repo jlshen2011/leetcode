@@ -50,11 +50,12 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 * [A Tutorial on Deep Learning Part 1: Nonlinear Classifiers and The Backpropagation Algorithm](http://ai.stanford.edu/~quocle/tutorial1.pdf) - Article
 * [A Tutorial on Deep Learning Part 2: Autoencoders, Convolutional Neural Networks and Recurrent Neural Networks](http://ai.stanford.edu/~quocle/tutorial2.pdf) - Article
 * [Deep Learning - An MIT Press book](http://www.deeplearningbook.org/) - Book
-* [Mastering the game of Go with deep neural networks and tree search](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf) - Paper
-* [Representation Learning: A Review and New Perspectives](https://arxiv.org/pdf/1206.5538.pdf) - Paper
-* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shit](https://arxiv.org/pdf/1502.03167v3.pdf) - Paper
-* [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) - Paper
-* [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) - Paper
+* [Mastering the game of Go with deep neural networks and tree search](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf) - Article
+* [Representation Learning: A Review and New Perspectives](https://arxiv.org/pdf/1206.5538.pdf) - Article
+* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shit](https://arxiv.org/pdf/1502.03167v3.pdf) - Article
+* [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) - Article
+* [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) - Article
+* [Searching for Activation Functions](https://arxiv.org/pdf/1710.05941.pdf) - Article
 * [Keras Documentation](https://keras.io/) - Website
 
 ### Natural Language Processing
@@ -65,6 +66,8 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 
 ### Big Data
 
-* [A Split-and-Conquer Approach for Analysis of Extraordinarily Large Data]() - Paper
-* [A Communication-Efficient Parallel Algorithm for Decision Tree]() - Paper
-* 
+* [A Split-and-Conquer Approach for Analysis of Extraordinarily Large Data](http://www3.stat.sinica.edu.tw/sstest/oldpdf/A24n49.pdf) - Paper
+* [A Communication-Efficient Parallel Algorithm for Decision Tree](https://arxiv.org/pdf/1611.01276.pdf) - Article
+* [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) - Article
+* [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf) - Article
+* [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf) - Article
