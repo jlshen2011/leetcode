@@ -33,7 +33,7 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 ### Ensemble Learning
 
 * [Ensemble Methods: Foundations and Algorithms](https://www.amazon.com/Ensemble-Methods-Foundations-Algorithms-Knowledge/dp/1439830037) - Book
-* [Super Learner](http://biostats.bepress.com/cgi/viewcontent.cgi?article=1226&context=ucbbiostat) - Paper
+* [Super Learner](http://biostats.bepress.com/cgi/viewcontent.cgi?article=1226&context=ucbbiostat) - Article
 
 ### Clustering
 * [Survey of Clustering Algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.2219&rep=rep1&type=pdf) - Article
@@ -42,25 +42,26 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 
 ### Reinforcement Leanring
 
-* [Reinforcement Learning: An Introduction, 2nd](hhttp://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf) - Book
+* [Reinforcement Learning: An Introduction, 2nd](http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf) - Book
 * [UCL Course on Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) - Website
 * [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/) - Website
 
 ### Deep-Learning
-
-* [Deep Learning - An MIT Press book](http://www.deeplearningbook.org/)
+* [A Tutorial on Deep Learning Part 1: Nonlinear Classifiers and The Backpropagation Algorithm](http://ai.stanford.edu/~quocle/tutorial1.pdf) - Article
+* [A Tutorial on Deep Learning Part 2: Autoencoders, Convolutional Neural Networks and Recurrent Neural Networks](http://ai.stanford.edu/~quocle/tutorial2.pdf) - Article
+* [Deep Learning - An MIT Press book](http://www.deeplearningbook.org/) - Book
 * [Mastering the game of Go with deep neural networks and tree search](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf) - Paper
 * [Representation Learning: A Review and New Perspectives](https://arxiv.org/pdf/1206.5538.pdf) - Paper
 * [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shit](https://arxiv.org/pdf/1502.03167v3.pdf) - Paper
 * [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) - Paper
+* [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) - Paper
+* [Keras Documentation](https://keras.io/) - Website
 
 ### Natural Language Processing
 
-
-### Optimization
-
-* [Convex Optimization](http://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf) - Book
-* [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) - Paper
+### Python & R
+* [Python for Data Analysis, 2nd Edition](http://shop.oreilly.com/product/0636920050896.do) - Book
+* [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf) - Article
 
 ### Big Data
 
