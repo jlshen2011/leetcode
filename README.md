@@ -1,19 +1,17 @@
 # Selected Reading List on Modern Machine Learning
 Below is my personal reading list on a variety of topics of modern machine learning. Different from many reading list you may find available online, I have went through all of the materials on this list myself and am sure that you'll more or less benefit from it.
 
-### General-Purpose Machine Learning Books
+### All-Purpose Books
 
-* [Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/)**(Milestone, Show the promise of deep learning)** - Book
-* [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - Book
-* [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
-* [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) - Article
+* [Elements of Statistical Learning, 2nd](http://web.stanford.edu/~hastie/ElemStatLearn/) **(ESL, Bible book of machine learning in statistics community, My favorite book)** - Book
+* [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) **(A more gentle version of ESL)** - Book
 
 ### Probability & Statistics
 
-* [Statistical Inference, 2nd](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126) - Book
-* [Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) - Book
-* [Bayesian Data Analysis, 3rd](https://www.amazon.com/Bayesian-Analysis-Chapman-Statistical-Science/dp/1439840954) - Book
-* [ASA Statement on Statistical Significance and P-Values](http://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108?needAccess=true) - Article
+* [Statistical Inference, 2nd](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126) **(General introduction to prob & stat, Our textbook)** - Book
+* [Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) **()** - Book
+* [Bayesian Data Analysis, 3rd](https://www.amazon.com/Bayesian-Analysis-Chapman-Statistical-Science/dp/1439840954) **(Standard reference to Bayesian statistics)** - Book
+* [ASA Statement on Statistical Significance and P-Values](http://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108?needAccess=true) **()** - Article
 
 ### Linear Models
 
@@ -77,3 +75,7 @@ Below is my personal reading list on a variety of topics of modern machine learn
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) - Article
 * [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf) - Article
 * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf) - Article
+
+### General Topics
+* [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
+* [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) - Article
