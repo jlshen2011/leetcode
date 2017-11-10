@@ -6,6 +6,7 @@ Below is my personal reading list on a variety of topics of mordern machine lear
 * [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - Book
 * [Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/) - Book
 * [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
+* [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) - Article
 
 ### Probability & Statistics
 
