@@ -26,15 +26,15 @@ Below some papers on regularized regression which are thought as the main breakt
 
 ### Bagging & Boosting
 If I were asked to perform some prediction task in short time and without caring intepretation of the meaning of my model, boosting is my only choice. 
-* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) - Article
-* [Welcome to LightGBM’s documentation!](https://lightgbm.readthedocs.io/en/latest/) - Website
-* [Fighting Biases with Dynamic Boosting](https://arxiv.org/pdf/1706.09516.pdf) - Article
-* [Deep Forest: Towards An Alternative to Deep Neural Networks](https://arxiv.org/pdf/1702.08835.pdf) - Article
+* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) **()** - Article
+* [Welcome to LightGBM’s documentation!](https://lightgbm.readthedocs.io/en/latest/) **(Another industry-level gradient boosting by Microsoft, claimed to )** - Website
+* [Fighting Biases with Dynamic Boosting](https://arxiv.org/pdf/1706.09516.pdf) **()** - Article
+* [Deep Forest: Towards An Alternative to Deep Neural Networks](https://arxiv.org/pdf/1702.08835.pdf) **()** - Article
 
 ### Stacking
 The modern approach is to create an ensemble of a well-chosen collection of strong yet diverse models.
-* [Stacked Regressions](http://statistics.berkeley.edu/sites/default/files/tech-reports/367.pdf)
-* [Super Learner in Prediction](http://biostats.bepress.com/cgi/viewcontent.cgi?article=1226&context=ucbbiostat) - Article
+* [Stacked Regressions](http://statistics.berkeley.edu/sites/default/files/tech-reports/367.pdf) **(Original paper on stacking models)** - Article
+* [Super Learner in Prediction](http://biostats.bepress.com/cgi/viewcontent.cgi?article=1226&context=ucbbiostat) **(Extend to general loss functions)** - Article
 
 ### Clustering
 * [Survey of Clustering Algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.2219&rep=rep1&type=pdf) - Article
@@ -66,7 +66,7 @@ Besides the common clustering algorithms, the following two are pretty interesti
 ### Natural Language Processing
 
 ### Python & R
-I intentiionally don't recommend any advanced books, as the best way of learning is by practicing once you get yourself started
+I intentiionally don't include any advanced books, as the best way of learning is by practicing once you get yourself started
 * [Python for Data Analysis, 2nd Edition](http://shop.oreilly.com/product/0636920050896.do) **(Written by the author of numpy)** - Book
 * [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf) **(Official R documentation, best quick tutorial)** - Article
 
@@ -85,4 +85,4 @@ I intentiionally don't recommend any advanced books, as the best way of learning
 ### Miscellaneous Topics
 * [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
 * [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) **(A great review of various information criterions)** - Article
-* [Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf) - Article
+* [Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf) **(The authors compared 179 classification models and claimed random forest the best )** - Article
