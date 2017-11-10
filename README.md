@@ -1,5 +1,5 @@
 # Selected Reading List on Modern Machine Learning
-Below is my personal reading list on a variety of topics of modern machine learning. Different from many reading list you may find available online, I have went through all of the materials on this list myself and am sure that you'll more or less benefit from it.
+Below is my reading list on a variety of topics of modern machine learning. Different from many reading list you may find available online, I have went through all of the listed materials myself and so am sure that you'll more or less benefit from it.
 
 ### All-Purpose Books
 
