@@ -1,10 +1,10 @@
-# Mordern Machine Learning Reading List
-Below is my personal reading list on a variety of topics of mordern machine learning. Different from many so-called "machine learning must-reads" you may find online which appears scaringly long and cubersome, I have read all of the listed books/papers/websites on this list and am sure that you would more or less benefit from it.
+# Selected Reading List on Modern Machine Learning
+Below is my personal reading list on a variety of topics of modern machine learning. Different from many reading list you may find available online, I have went through all of the materials on this list myself and am sure that you'll more or less benefit from it.
 
 ### General-Purpose Machine Learning Books
 
+* [Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/)**(Milestone, Show the promise of deep learning)** - Book
 * [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - Book
-* [Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/) - Book
 * [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
 * [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) - Article
 
