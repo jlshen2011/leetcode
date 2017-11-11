@@ -15,21 +15,21 @@ Below is my reading list on a variety of topics of modern machine learning. Diff
 
 ### Linear Models
 
-* [Linear Model with R](http://www.utstat.toronto.edu/~brunner/books/LinearModelsWithR.pdf) **(Introductory book on linear regression with plenty of R examples)** - Book
-* [Linear Statistical Models, 2nd](https://www.amazon.com/Linear-Statistical-Models-James-Stapleton/dp/0470231467) **(For those who want a formal mathematical treatment, Our textbook)** - Book
+* [Linear Model with R](http://www.utstat.toronto.edu/~brunner/books/LinearModelsWithR.pdf) **(Introductory book on linear regression with ample R examples)** - Book
+* [Linear Statistical Models, 2nd](https://www.amazon.com/Linear-Statistical-Models-James-Stapleton/dp/0470231467) **(For those who want more math, this is our graduate textbook)** - Book
 
-Below some papers on regularized regression which are thought as the main breakthroughs in stats in the recent 20 years
-* [Regression Shrinkage and Selection via the Lasso](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) **()** - Article
-* [Regularization and Variable Selection via the Elastic Net](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) - Article
-* [Model Selection and Estimation in Regression with Grouped Variables](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.366.4278&rep=rep1&type=pdf) - Article
-* [Exact Post-Selection Inference, with Application to the Lasso](https://arxiv.org/abs/1311.6238.pdf) - Article
+Some milestone papers on regularized regression
+* [A Selective Overview of Variable Selection in High Dimensional Feature Space](https://arxiv.org/pdf/0910.1122.pdf) **(Review paper of variable selection in high dimensional regression written by Jianqing Fan)** - Article
+* [Regression Shrinkage and Selection via the Lasso](https://statweb.stanford.edu/~tibs/lasso/lasso.pdf) **(Original paper on Lasso)** - Article
+* [Regularization and Variable Selection via the Elastic Net](https://web.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf) **(Original paper on elastic net)** - Article
+* [Model Selection and Estimation in Regression with Grouped Variables](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.366.4278&rep=rep1&type=pdf) **(Variable selection can be performed at group level as well)** - Article
+* [Exact Post-Selection Inference, with Application to the Lasso](https://arxiv.org/abs/1311.6238.pdf) **(Statistical inference on Lasso)** - Article
 
 ### Bagging & Boosting
-If I were asked to perform some prediction task in short time and without caring intepretation of the meaning of my model, boosting is my only choice. 
-* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) **()** - Article
-* [Welcome to LightGBM’s documentation!](https://lightgbm.readthedocs.io/en/latest/) **(Another industry-level gradient boosting by Microsoft, claimed to )** - Website
-* [Fighting Biases with Dynamic Boosting](https://arxiv.org/pdf/1706.09516.pdf) **()** - Article
-* [Deep Forest: Towards An Alternative to Deep Neural Networks](https://arxiv.org/pdf/1702.08835.pdf) **()** - Article
+* [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) **(A "scalable, portable and distributed gradient boosting library", wininig algorithms for many kaggle competitions)** - Article
+* [Welcome to LightGBM’s documentation!](https://lightgbm.readthedocs.io/en/latest/) **(Another industry-level gradient boosting library written by Microsoft, 10 times faster than xgboost)** - Website
+* [Fighting Biases with Dynamic Boosting](https://arxiv.org/pdf/1706.09516.pdf) **(Paper for Catboost, a recent gradient boosting library that outforms in accuracy, but has slower training than competing kits such as xgboost)** - Article
+* [Deep Forest: Towards An Alternative to Deep Neural Networks](https://arxiv.org/pdf/1702.08835.pdf) **(I wouldn't say it's an alternative to deep learning, but defintely very interesting idea furthering tree-based methods)** - Article
 
 ### Stacking
 The modern approach is to create an ensemble of a well-chosen collection of strong yet diverse models.
