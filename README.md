@@ -26,27 +26,24 @@ Some milestone papers on regularized regression
 * [Exact Post-Selection Inference, with Application to the Lasso](https://arxiv.org/abs/1311.6238.pdf) **(Statistical inference on Lasso)** - Article
 
 ### Bagging & Boosting
+
 * [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf) **(A "scalable, portable and distributed gradient boosting library", wininig algorithms for many kaggle competitions)** - Article
 * [Welcome to LightGBM’s documentation!](https://lightgbm.readthedocs.io/en/latest/) **(Another industry-level gradient boosting library written by Microsoft, 10 times faster than xgboost)** - Website
 * [Fighting Biases with Dynamic Boosting](https://arxiv.org/pdf/1706.09516.pdf) **(Paper for Catboost, a recent gradient boosting library that outforms in accuracy, but has slower training than competing kits such as xgboost)** - Article
-* [Deep Forest: Towards An Alternative to Deep Neural Networks](https://arxiv.org/pdf/1702.08835.pdf) **(I wouldn't say it's an alternative to deep learning, but defintely very interesting idea furthering tree-based methods)** - Article
+* [Deep Forest: Towards An Alternative to Deep Neural Networks](https://arxiv.org/pdf/1702.08835.pdf) **(I wouldn't say an alternative to deep learning, but defintely very interesting idea furthering tree-based methods)** - Article
 
 ### Stacking
-The modern approach is to create an ensemble of a well-chosen collection of strong yet diverse models.
-* [Stacked Regressions](http://statistics.berkeley.edu/sites/default/files/tech-reports/367.pdf) **(Original paper on stacking models)** - Article
-* [Super Learner in Prediction](http://biostats.bepress.com/cgi/viewcontent.cgi?article=1226&context=ucbbiostat) **(Extend to general loss functions)** - Article
+
+Rather than bagging and boosting that combines "weak learners", the modern approach is to create an ensemble of a well-chosen collection of strong yet diverse models.
+* [Stacked Regressions](http://statistics.berkeley.edu/sites/default/files/tech-reports/367.pdf) **(One of the original paper on stacking models written by Breiman)** - Article
+* [Super Learner in Prediction](http://biostats.bepress.com/cgi/viewcontent.cgi?article=1226&context=ucbbiostat) **(Extension to general loss functions)** - Article
 
 ### Clustering
-* [Survey of Clustering Algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.2219&rep=rep1&type=pdf) - Article
-Besides the common clustering algorithms, the following two are pretty interesting 
+
+* [Data Clustering: A Review](https://www.cs.rutgers.edu/~mlittman/courses/lightai03/jain99data.pdf) **(Review of classical clustering methods)** - Article
+Two clustering algorithms particularly interests me
 * [On Spectral Clustering: Analysis and an Algorithm](http://ai.stanford.edu/~ang/papers/nips01-spectral.pdf) **(Spectral clustering)** - Article
 * [Clustering by Passing Messages Between Data Points](http://www.psi.toronto.edu/affinitypropagation/FreyDueckScience07.pdf) **(Affinity propagation clustering)** - Article
-
-### Reinforcement Leanring
-
-* [Reinforcement Learning: An Introduction, 2nd](http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf) - Book
-* [UCL Course on Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) - Website
-* [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/) - Website
 
 ### Deep-Learning
 * [A Tutorial on Deep Learning Part 1: Nonlinear Classifiers and The Backpropagation Algorithm](http://ai.stanford.edu/~quocle/tutorial1.pdf) - Article
@@ -63,26 +60,31 @@ Besides the common clustering algorithms, the following two are pretty interesti
 * [Long Short-Term Memory](https://dl.acm.org/citation.cfm?id=1246450) - Article
 * [Keras Documentation](https://keras.io/) - Website
 
+### Reinforcement Leanring
+
+* [Reinforcement Learning: An Introduction, 2nd](http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf) **(Standard textbook on reinforcement learning)**- Book
+* [UCL Course on Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) **(The lecture David Silver leads DeepMind and is lead researcher on AlphaGo)** - Website
+* [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/) **()** - Website
+
 ### Natural Language Processing
 
 ### Python & R
-I intentiionally don't include any advanced books, as the best way of learning is by practicing once you get yourself started
+
+I intentiionally didn't include any advanced reference, believing that the best way to learn programming is to practice once you get yourself started. There are tons of Q&A online (like at StackExchange) which you shall refer to.
 * [Python for Data Analysis, 2nd Edition](http://shop.oreilly.com/product/0636920050896.do) **(Written by the author of numpy)** - Book
 * [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf) **(Official R documentation, best quick tutorial)** - Article
+* [The caret Package](http://topepo.github.io/caret/index.html) **(One of my favorite R packages that streamlines the process for creating predictive models)** - Website
 
 ### Big Data
 
-#### Overview
-* [Challenges of Big Data Analysis](https://arxiv.org/pdf/1308.1479.pdf) **(Review article written by Jianqing Fan)** - Article
-#### Parallel Strategies
+* [Challenges of Big Data Analysis](https://arxiv.org/pdf/1308.1479.pdf) **(Review paper written by Jianqing Fan)** - Article
 * [A Split-and-Conquer Approach for Analysis of Extraordinarily Large Data](http://www3.stat.sinica.edu.tw/sstest/oldpdf/A24n49.pdf) **(Parellelizing regularized GLM, written by my research group at Rutgers)** - Article
 * [A Communication-Efficient Parallel Algorithm for Decision Tree](https://arxiv.org/pdf/1611.01276.pdf) **(Parellelizing tree building)** - Article
-#### Hadoop & Spark
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) **(Original research paper of MapReduce by Jeff Dean)** - Article
 * [Spark: Cluster Computing with Working Sets](https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf) **(Original research paper introducing the concept of Spark)** - Article
 * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf) **(Original research paper introducing the concept of RDD)** - Article
 
-### Miscellaneous Topics
+### Miscellaneous
 * [A Few Useful Things to Know about Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf) - Article
-* [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) **(A great review of various information criterions)** - Article
-* [Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf) **(The authors compared 179 classification models and claimed random forest the best )** - Article
+* [Model Order Selection: A Review of Information Criterion Rules](http://www.sal.ufl.edu/eel6935/2008/01311138_ModelOrderSelection_Stoica.pdf) **(Review of various information criterions)** - Article
+* [Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?](http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf) **(Interesting paper comparing 179 classification models where random forest wins, although I would put a questionmark on the conclusion)** - Article
