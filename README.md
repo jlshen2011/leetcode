@@ -1,17 +1,17 @@
-# Jieli's Machine Learning Reading List
+# My Machine Learning Reading List
 Below is my reading list on a variety of topics of modern machine learning. Different from many reading list you may find available online, I have went through all of the listed materials myself and so am sure that you'll more or less benefit from it.
 
-### General-Purpose Books
-As a statistician, I favor machine leanring books from 
-* [Elements of Statistical Learning, 2nd](http://web.stanford.edu/~hastie/ElemStatLearn/) **(ESL, Bible book of machine learning in statistics community, My favorite book)** - Book
-* [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) **(A more gentle version of ESL)** - Book
+### Top 2 Recommendation
+
+* [Elements of Statistical Learning, 2nd](http://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf) **(ESL, bible book of machine learning among statisticians)** - Book
+* [An Introduction To Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) **(A light version of ESL)** - Book
 
 ### Probability & Statistics
 
-* [Statistical Inference, 2nd](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126) **(General introduction to prob & stat, Our textbook)** - Book
-* [Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) **(Textbook of statistical inference in modern era written by the two big names)** - Book
+* [Statistical Inference, 2nd](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126) **(Excellent introductory book to prob & stat, my graduate textbook)** - Book
+* [Computer Age Statistical Inference](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf) **(Textbook of modern statistical inference written by Efron and Hastie)** - Book
 * [Bayesian Data Analysis, 3rd](https://www.amazon.com/Bayesian-Analysis-Chapman-Statistical-Science/dp/1439840954) **(Standard reference to Bayesian statistics)** - Book
-* [ASA Statement on Statistical Significance and P-Values](http://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108?needAccess=true) **(Surprisingly, people outside (and even inside) statistics community are misinterepreting p-values, this is "official" guide on how to use it)** - Article
+* [ASA Statement on Statistical Significance and P-Values](http://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108?needAccess=true) **(Surprisingly, many people outside (and even inside) statistics community misinterepret p-values, and this is "official" guide to p-values)** - Article
 
 ### Linear Models
 
