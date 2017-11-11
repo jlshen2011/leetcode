@@ -55,7 +55,7 @@ Two clustering algorithms particularly interests me
 * [Deep Learning](https://www.nature.com/articles/nature14539) **(Review paper on Nature also by the big three)** - Article
 
 #### Models & Architectures
-A really incomplete (and probably outdated) list ...
+I don't follow closely on the lastest trend of DL, and following are simply what interest me
 * [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shit](https://arxiv.org/pdf/1502.03167v3.pdf) **(Batch normalization)**- Article
 * [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) **(Dropout)** - Article
 * [An Overview of Gradient Descent Optimization Algorithms](https://arxiv.org/pdf/1609.04747.pdf) **[Nice review on gradient descent variations]** - Article
