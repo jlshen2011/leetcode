@@ -799,3 +799,20 @@ class ProductOfNumbers(object):
             return 0
         else:
             return int(self.curlist[-1] / self.curlist[-k - 1])
+
+
+# 1656. Design an Ordered Stream
+class OrderedStream:
+    def __init__(self, n: int):
+        self.arr = [None] * n
+        self.ptr = 0
+    def insert(self, id: int, value: str) -> List[str]:
+        self.arr[id - 1] = value
+        if self.ptr == id - 1:
+            for i in range(id - 1, len(self.arr)):
+                if self.arr[i]:
+                    self.ptr += 1
+                else:
+                    break
+            return self.arr[id - 1 : self.ptr]
+        return []

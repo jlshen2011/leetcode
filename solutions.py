@@ -116,7 +116,7 @@ class Solution:
 
 
     # 6. ZigZag Conversion
-    def convert(self, s: str, numRows: int) -> str:
+    def convertZigzag(self, s: str, numRows: int) -> str:
         if numRows == 1 or numRows >= len(s):
             return s
         zigzag = ["" for i in xrange(numRows)]
@@ -763,7 +763,7 @@ class Solution:
 
 
     # 44. Wildcard Matching
-    def isMatch(self, s: str, p: str) -> bool:
+    def wildcardMatch(self, s: str, p: str) -> bool:
         m, n = len(s), len(p)
         dp = [[False for _ in range(n + 1)] for _ in range(m + 1)]
         dp[0][0] = True
@@ -826,7 +826,7 @@ class Solution:
 
 
     # 48. Rotate Image
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotateImage(self, matrix: List[List[int]]) -> None:
         n = len(matrix)
         for i in range(n // 2):
             for j in range(n - n // 2):
@@ -1271,7 +1271,7 @@ class Solution:
 
 
     # 80. Remove Duplicates from Sorted Array II
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates2(self, nums: List[int]) -> int:
         j = count = 1
         for i in range(1, len(nums)):
             if nums[i] == nums[i - 1]:
@@ -1285,7 +1285,7 @@ class Solution:
 
 
     # 81. Search in Rotated Sorted Array II
-    def search(self, nums: List[int], target: int) -> bool:
+    def search2(self, nums: List[int], target: int) -> bool:
         left, right = 0, len(nums) - 1
         while left <= right:
             mid = left + (right - left) // 2
@@ -1333,7 +1333,7 @@ class Solution:
 
 
     # 88. Merge Sorted Array
-    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+    def mergeSortedArray(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         p1 = m - 1
         p2 = n - 1
         p = m + n - 1
@@ -1770,7 +1770,7 @@ class Solution:
 
 
     # 125. Valid Palindrome
-    def isPalindrome(self, s: str) -> bool:
+    def validPalindrome(self, s: str) -> bool:
         n = len(s)
         i, j = 0, n - 1
         while i < j:
@@ -2166,7 +2166,7 @@ class Solution:
 
 
     # 152. Maximum Product Subarray
-    def maxProduct(self, nums: List[int]) -> int:
+    def maxProductSubarray(self, nums: List[int]) -> int:
         n = len(nums)
         if n == 0:
             return
@@ -2194,7 +2194,7 @@ class Solution:
 
 
     # 154. Find Minimum in Rotated Sorted Array II
-    def findMin(self, nums: List[int]) -> int:
+    def findMin2(self, nums: List[int]) -> int:
         l, r = 0, len(nums) - 1
         while l < r:
             mid = l + (r - l) // 2
@@ -2249,19 +2249,16 @@ class Solution:
 
 
     # 165. Compare Version Numbers
-    def findPeakElement(self, nums: List[int]) -> int:
-        n = len(nums)
-        l, r = 0, n - 1
-        while l <= r:
-            mid = l + (r - l) // 2
-            if (mid == 0 or nums[mid - 1] < nums[mid]) and (
-                mid == n - 1 or nums[mid] > nums[mid + 1]
-            ):
-                return mid
-            elif mid > 0 and nums[mid - 1] >= nums[mid]:
-                r = mid - 1
-            elif mid < n - 1 and nums[mid] <= nums[mid + 1]:
-                l = mid + 1
+   def compareVersion(self, version1: str, version2: str) -> int:
+        nums1 = version1.split(".")
+        nums2 = version2.split(".")        
+        n1, n2 = len(nums1), len(nums2)
+        for i in range(max(n1, n2)):
+            i1 = int(nums1[i]) if i < n1 else 0
+            i2 = int(nums2[i]) if i < n2 else 0
+            if i1 != i2:
+                return 1 if i1 > i2 else -1        
+        return 0
 
 
     # 166. Fraction to Recurring Decimal
@@ -2825,7 +2822,7 @@ class Solution:
 
 
     # 230. Kth Smallest Element in a BST
-    def kthSmallest(self, root: TreeNode, k: int) -> int:
+    def kthSmallestInBST(self, root: TreeNode, k: int) -> int:
         ans = []
         def inorder(root):
             if not root:
@@ -2906,11 +2903,7 @@ class Solution:
 
 
     # 237. Delete Node in a Linked List
-    def deleteNode(self, node):
-        """
-        :type node: ListNode
-        :rtype: void Do not return anything, modify node in-place instead.
-        """
+    def deleteNode(self, node: ListNode) -> None:
         node.val = node.next.val
         node.next = node.next.next
 
@@ -2951,7 +2944,7 @@ class Solution:
 
 
     # 240. Search a 2D Matrix II
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+    def searchMatrix2(self, matrix: List[List[int]], target: int) -> bool:
         if not matrix:
             return False
         m, n = len(matrix), len(matrix[0])
@@ -3276,7 +3269,7 @@ class Solution:
 
 
     # 309. Best Time to Buy and Sell Stock with Cooldown
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit4(self, prices: List[int]) -> int:
         sold, held, reset = float("-inf"), float("-inf"), 0
         for price in prices:
             pre_sold = sold
@@ -3594,14 +3587,14 @@ class Solution:
 
 
     # 349. Intersection of Two Arrays
-    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         s1 = set(nums1)
         s2 = set(nums2)
         return [x for x in s1 if x in s2]
 
 
     # 350. Intersection of Two Arrays II
-    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+    def intersect2(self, nums1: List[int], nums2: List[int]) -> List[int]:
         c1 = Counter(nums1)
         c2 = Counter(nums2)
         res = []
@@ -3928,7 +3921,7 @@ class Solution:
 
 
     # 430. Flatten a Multilevel Doubly Linked List
-    def flatten(self, head: "Node") -> "Node":
+    def flattenDoublyLinkedList(self, head: "Node") -> "Node":
         if not head:
             return head
         dummy = Node(0, None, head, None)
@@ -4722,7 +4715,7 @@ class Solution:
 
 
     # 680. Valid Palindrome II
-    def validPalindrome(self, s: str) -> bool:
+    def validPalindrome2(self, s: str) -> bool:
         def isPanlidrome(i, j):
             l, r = i, j
             while l < r:
@@ -5878,7 +5871,7 @@ class Solution:
 
 
     # 1047. Remove All Adjacent Duplicates In String
-    def removeDuplicates(self, S: str) -> str:
+    def removeAdjacentDuplicates(self, S: str) -> str:
         stack = []
         for char in S:
             if len(stack) and stack[-1] == char:
@@ -6293,7 +6286,7 @@ class Solution:
 
 
     # 1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows
-    def kthSmallest(self, mat: List[List[int]], k: int) -> int:
+    def kthSmallestSum(self, mat: List[List[int]], k: int) -> int:
         ans = [0]
         for row in mat:
             ans = [-i + j for i in row for j in ans]
@@ -6415,7 +6408,7 @@ class Solution:
 
 
     # 1636. Sort Array by Increasing Frequency
-    def frequencySort(self, nums: List[int]) -> List[int]:
+    def increasingFrequencySort(self, nums: List[int]) -> List[int]:
         if not nums:
             return []
         counter = collections.Counter(nums)
@@ -6453,7 +6446,7 @@ class Solution:
         return True
 
 
-    # 1642. Furthest Building You Can Reach
+    # 1641. Count Sorted Vowel Strings
     def countVowelStrings(self, n: int) -> int:
         curr = [1, 1, 1, 1, 1]
         for i in range(2, n + 1):
@@ -6467,6 +6460,7 @@ class Solution:
         return sum(curr)
 
 
+    # 1642. Furthest Building You Can Reach
     def furthestBuilding(self, heights: List[int], bricks: int, ladders: int) -> int:
         n = len(heights)
         diff_arr = [0]
@@ -6522,23 +6516,6 @@ class Solution:
                 ans += arr[i] - 1
                 arr[i - 1] += arr[i] - 1
         return ans
-
-
-    # 1656. Design an Ordered Stream
-    class OrderedStream:
-        def __init__(self, n: int):
-            self.arr = [None] * n
-            self.ptr = 0
-        def insert(self, id: int, value: str) -> List[str]:
-            self.arr[id - 1] = value
-            if self.ptr == id - 1:
-                for i in range(id - 1, len(self.arr)):
-                    if self.arr[i]:
-                        self.ptr += 1
-                    else:
-                        break
-                return self.arr[id - 1 : self.ptr]
-            return []
 
 
     # 1657. Determine if Two Strings Are Close
